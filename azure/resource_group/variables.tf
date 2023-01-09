@@ -15,4 +15,5 @@ variable "location" {
     condition = contains(["east-us", "east-us2", "west-us", "central-us"], var.location)
     error_message = "The location provided is either not valid or not currently supported."
   }
+}
   
